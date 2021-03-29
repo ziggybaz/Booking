@@ -1,2 +1,2 @@
 # Booking
-Creating a booing database using firebase
+Creating a booking database using firebase
