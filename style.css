@@ -1,0 +1,51 @@
+/* Registration Section Starts Here */
+.registration{
+    display: flex;
+}
+.leftSide{
+    height: 100vh;
+    width: 50%;
+    background-image: url(./Images/vibez.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.rightSide{
+    background-color: burlywood;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightSide input{
+    padding: 10px 20px 10px 15px ;
+    width: 400px;
+    background-color: whitesmoke;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+.signUp{
+    background-color:aqua;
+    color: black;
+    border: black 1px solid;
+    padding:15px 40px 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.signUp:hover{
+    border: 2px black solid ;
+    background-color: white;
+    color: black;
+}
+/* Registration Section Ends Here */
+
+/* Booking Section Starts Here */
+.booking{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}

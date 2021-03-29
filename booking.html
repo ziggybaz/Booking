@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="booking">
+        
+        <div>
+            <label for="company">Preferred Courier</label><br><br>
+            <select name="courier" id="courier">
+                <option value=""></option>
+                <option value="emirates">Fly Emirates</option>
+                <option value="etihad">Etihad Airways</option>
+                <option value="lufthansa">Lufthasnsa</option>
+                <option value="kq">Kenya Airways</option>
+                <option value="ethiopia">Ethiopian Airlines</option>
+            </select>
+        </div>
+        <div>
+            <label for="date">Date of Travel:</label><br><br>
+            <input type="date" name="traveldate" id="travelDate">
+        </div>
+        <div>
+            <label for="travellers">Number Of Travellers</label><br><br>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <label for="from">Destination</label><br><br>
+            <select name="" id="">
+            <!-- <option value=""></option> -->
+            <option value="country">Kenya</option>
+           </select>
+           <label for="to">To</label>
+           <select name="" id="place">
+               <option value=""></option>
+               <option value="country">India
+                   <option value="country">Ethiopia</option>
+                   <option value="country">Turkey</option>
+                   <option value="country">Qatar</option>
+                   <option value="country">Abu Dhabi</option>
+               </option>
+           </select>
+        </div>
+        <div>
+            <label for="departure">Time of Departure</label><br><br>
+            <input type="time" id="masaa">
+        </div>
+        <div>
+            <label for="seat">Seat Number</label><br><br>
+            <select name="seat" id="seat">
+            <option value="seat"></option>
+            <option value="seat">2A</option>
+            <option value="seat">2B</option>
+            <option value="seat">3C</option>
+            <option value="seat">6A</option>
+            <option value="seat">6B</option>
+            <option value="seat">6C</option>
+            </select>
+        </div>
+        <button id="button">Submit</button>
+    </section>
+       
+
+  
+  
+</body>
+
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+
+<script src="./js/config.js"></script>
+<script src="./js/booking.js"></script>
+</html>
